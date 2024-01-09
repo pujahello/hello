@@ -1,0 +1,60 @@
+body {
+    margin:0;
+    padding-top:550px;
+    text-align: center;
+}
+
+.profile {
+border-radius:50%;
+}
+
+#welcome {
+position:absolute;
+bottom:0;
+background:linear-gradient(#60ebeb, #ae2778);
+display:table;
+width:100%;
+height: 100%;
+}
+
+h1 {
+font-size:40px;
+font-family: sans-serif;
+font-weight:300;
+}
+
+#name {
+font-size: 40px;
+font-family: 'cinzel decorative',cursive;
+}
+.menu {
+position: fixed;
+top: 10px;
+z-index: 10;
+cursor: pointer;
+background-color: white;
+width: 100%;
+margin-top: 0px;
+}
+.links {
+padding-left: 9px;
+padding-right: 9px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+display:inline;
+}
+.links:hover {
+font-size: 25;
+text-decoration: underline;
+}
+#bio {
+    font-family: 'cinzel decorative',cursive;
+    padding: 50px;   
+}
+a {
+    text-decoration:none ;
+}
+#writings a {
+    text-decoration: underline !important;
+color: green !important;
+}
